@@ -1,0 +1,129 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>BMI CALCULATOR Website</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css"/>
+    
+</head>
+<body>
+    <div class="scroll-up-btn">
+        <i class="fas fa-angle-up"></i>
+    </div>
+    <nav class="navbar">
+        <div class="max-width">
+            <div class="logo"><a href="#">BMI<span>calculator</span>.</span></a></div>
+            <ul class="menu">
+                <li><a href="#home" class="menu-btn">Home</a></li>
+                <li><a href="#about" class="menu-btn">About</a></li>
+                <li><a href="#contact" class="menu-btn">Highlights</a></li>
+            </ul>
+            <div class="menu-btn">
+                <i class="fas fa-bars"></i>
+            </div>
+        </div>
+    </nav>
+
+    <!-- home section start -->
+    <section class="home" id="home">
+        <div class="max-width">
+            <div class="home-content">
+                <div class="text-1">Check your fitness with BMI calculator </div>
+                <div class="text-2">BE FIT</div>
+                <div class="text-3">Be Physically Active<span class="typing"></span></div>
+            </div>
+        </div>
+    </section>
+
+    <!-- about section start -->
+    <section class="about" id="about">
+        <div class="max-width">
+            <h2 class="title">About BMI</h2>
+            <div class="about-content">
+                <div class="column left">
+                    <img src="bmi calculator.webp" alt="">
+                </div>
+                <div class="column right">
+                    <div class="text">Body mass index  <span class="typing-2"></span></div>
+                    <p>BMI. Body mass index is a measure of body fat based on height and weight. Use this calculator to check your Body Mass Index(BMI)and find out if you are healthy or not.
+                    Lorem ipsum dolor sit amet consectetur, adipisicing elit. Dolores at culpa eos id, quam sunt dolorum exercitationem. Magnam vero, soluta neque nihil quasi, iste laborum doloremque reprehenderit ullam repudiandae laudantium.
+                    </p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- calculation section start -->
+    <section class="box">
+        <div class="container">
+            <!-- heading============================== -->
+            <div class="select">
+                <span><h1>CALCULATE YOUR BMI</h1></span><br>
+            
+            </div>
+
+
+            <!-- form======================================= -->
+            <form action="surbhi.php">
+                <div class="form">
+                <span>NAME :</span> <input type="text" placeholder="NAME">
+                </div>
+                <div class="form">
+                 <span>AGE :</span> <input type="number" placeholder=" AGE">
+                </div>
+
+                <div class="form">
+                   <span>GENDER :</span><input type="radio" name="name"> Male <input type="radio" name="name" id=""> Female
+                </div>
+                <div class="form">
+                    <span>HEIGHT :</span> <input type="number" name="" id="" placeholder="HEIGHT">
+                </div>
+                <div class="form">
+                    <span>WEIGHT :</span> <input type="text" placeholder="WEIGHT">
+                </div>
+                <div class="calculate-btn">
+
+                    <input type="submit" value="CALCULATE YOUR BMI">
+                </div>
+            </div>
+            
+
+    </section>
+    <!-- calculation secion end -->
+    <div class="list">
+        <table border>
+            <tr>
+                <th>BMI</th>
+                <th>Status</th>
+            </tr>
+            <tr>
+                <th><= 18.4</th>
+                <th>Underweight</th>
+            </tr>
+            <tr>
+                <th>18.5-24.9</th>
+                <th>Normal</th>
+            </tr>
+            <tr>
+                <th>25.0-39.9</th>
+                <th>Overweight</th>
+            </tr>
+            <tr>
+                <th>>=40.0</th>
+                <th>Obese</th>
+            </tr>
+        </table>
+    </div>
+        <section class="bmi">
+
+        </section>
+    <!-- footer section start -->
+    <footer>
+        <span>Created By <a href="#">surbhi</a> | <span class="far fa-copyright"></span> 2023 All rights reserved.</span>
+    </footer>
+
+
+</body>
+</html>
